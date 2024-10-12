@@ -63,7 +63,6 @@ def fetch_index_page(allowed_values, domain_count):
 
         for keys, values in final_result.items():
             print(f"{keys} has {values}% availability percentage")
-        print("")
 
         time.sleep(delay)
 
